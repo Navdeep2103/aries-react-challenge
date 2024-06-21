@@ -10,3 +10,6 @@ dist/
 
 # IDE files
 .vscode/
+
+# Ignore package-lock.json
+/package-lock.json
