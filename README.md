@@ -21,5 +21,9 @@ This application generates a risk & reward graph for options strategies. It acce
 -   `src/utils/optionsUtils.js`: Utility functions for calculating profit/loss, generating graph data, and calculating summary statistics.
 -   `src/data/sampleData.js`: Sample data for the options contracts.
 
+### Prerequisites
+
+Make sure you have Node.js (14 or higher) and npm (or Yarn) installed on your machine.
+
 
 
