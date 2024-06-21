@@ -15,6 +15,7 @@ This application generates a risk & reward graph for options strategies. It acce
 - A risk & reward graph where X is the price of the underlying at the time of expiry and Y is the profit/loss at that price.
 - Max profit, max loss, and all break-even points.
 
+
 ### Description of Key Files
 
 -   `src/components/OptionsGraph.js`: The component responsible for rendering the risk & reward graph.
@@ -25,5 +26,6 @@ This application generates a risk & reward graph for options strategies. It acce
 
 Make sure you have Node.js (14 or higher) and npm (or Yarn) installed on your machine.
 
-
+## Output with sample data
+<img width="1428" alt="Screenshot 2024-06-21 at 1 26 36 PM" src="https://github.com/Navdeep2103/aries-react-challenge/assets/44100861/21ae6243-3f06-4762-a2f5-1c8e7608e112">
 
