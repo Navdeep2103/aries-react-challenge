@@ -3,6 +3,7 @@ import { Line } from "react-chartjs-2";
 import { sampleData } from "../data/sampleData";
 import "chart.js/auto";
 import { generateGraphData, calculateSummary } from "../utils/optionsUtils";
+import './OptionsGraph.css';
 
 // React component for displaying the Options Graph and Summary
 const OptionsGraph = () => {
@@ -11,11 +12,11 @@ const OptionsGraph = () => {
   const summary = calculateSummary(sampleData);
 
   return (
-    <div>
+    <div className="options-chart-container">
       <h2> Risk & Reward Graph </h2>{" "}
       {/* Display Line chart with calculated graphData */}{" "}
       <Line data={graphData} />{" "}
-      <div>
+      <div className="options-chart-container">
         <h3> Summary </h3>{" "}
         {/* Display calculated max profit, max loss, and break-even points */}{" "}
         <p> Max Profit: {summary.maxProfit.toFixed(2)} </p>{" "}

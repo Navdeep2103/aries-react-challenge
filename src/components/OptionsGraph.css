@@ -1,0 +1,13 @@
+.options-chart-container {
+  margin: 0 auto;
+}
+
+canvas {
+  width: fit-content;
+  height: 50vh;
+}
+
+.options-info {
+  text-align: left;
+  margin-top: 20px;
+}
